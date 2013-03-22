@@ -12,6 +12,7 @@
 (require 'init-themes)
 (require 'init-auctex)
 (require 'init-misc)
+(require 'init-csharp)
 
 (require 'evil)
 (require 'undo-tree)
