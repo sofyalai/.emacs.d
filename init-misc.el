@@ -45,4 +45,25 @@
       (transpose-lines -1))
     (move-to-column col)))
 
+;; Mousewheel
+(defun sd-mousewheel-scroll-up (event)
+  "Scroll window under mouse up by five lines."
+  (interactive "e")
+  (let ((current-window (selected-window)))
+    (unwind-protect
+        (progn 
+          (select-window (posn-window (event-start event)))
+          (scroll-up 5))
+      (select-window current-window))))
+
+(defun sd-mousewheel-scroll-down (event)
+  "Scroll window under mouse down by five lines."
+  (interactive "e")
+  (let ((current-window (selected-window)))
+    (unwind-protect
+        (progn 
+          (select-window (posn-window (event-start event)))
+          (scroll-down 5))
+      (select-window current-window))))
+
 (provide 'init-misc)
