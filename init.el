@@ -7,12 +7,13 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/multiple-cursors"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/evil/"))
 
+(require 'init-auctex)
 (require 'init-auto-complete)
+(require 'init-csharp)
+(require 'init-misc)
 (require 'init-org)
 (require 'init-themes)
-(require 'init-auctex)
-(require 'init-misc)
-(require 'init-csharp)
+(require 'init-vala)
 
 (require 'evil)
 (require 'undo-tree)
