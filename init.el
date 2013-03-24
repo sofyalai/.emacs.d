@@ -5,7 +5,6 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/eshell"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/undo-tree"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/multiple-cursors"))
-;(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/evil/"))
 
 (require 'init-auctex)
 (require 'init-auto-complete)
@@ -16,7 +15,6 @@
 (require 'init-vala)
 (require 'init-evil)
 
-;(require 'evil)
 (require 'undo-tree)
 (require 'multiple-cursors)
 
