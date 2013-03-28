@@ -6,6 +6,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/undo-tree"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/multiple-cursors"))
 
+(require 'iso-transl)
 (require 'init-auctex)
 (require 'init-auto-complete)
 (require 'init-csharp)
