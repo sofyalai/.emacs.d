@@ -7,8 +7,7 @@
 (global-set-key (kbd "M-n") 'mc/insert-numbers)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
-(define-key evil-normal-state-map "b" 'ido-switch-buffer)
-(define-key evil-normal-state-map "E" 'ido-find-file)
+(define-key evil-normal-state-map "gb" 'ido-switch-buffer)
 
 ;; org-mode
 (global-set-key "\C-cl" 'org-store-link)
