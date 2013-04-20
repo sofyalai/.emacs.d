@@ -1,7 +1,6 @@
 (autoload 'linum-mode "linum" "toggle line numbers on/off" t) 
 
 (global-font-lock-mode t)
-(global-undo-tree-mode)
 
 (evil-mode 1)
 (menu-bar-mode 0)

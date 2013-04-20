@@ -16,7 +16,6 @@
 (require 'init-vala)
 (require 'init-evil)
 
-(require 'undo-tree)
 (require 'multiple-cursors)
 
 (require 'emacs-settings)
