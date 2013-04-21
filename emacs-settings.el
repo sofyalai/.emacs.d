@@ -1,14 +1,14 @@
 (autoload 'linum-mode "linum" "toggle line numbers on/off" t) 
 
-(global-font-lock-mode t)
-
+(blink-cursor-mode 0) 
+(column-number-mode t)
 (evil-mode 1)
+(global-font-lock-mode t)
+(ido-mode t)
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
-(tool-bar-mode 0)		  
-(column-number-mode t)
-(ido-mode t)
 (show-paren-mode t)
+(tool-bar-mode 0)		  
 
 (set-cursor-color "white")
 
