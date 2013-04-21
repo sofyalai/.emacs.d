@@ -3,7 +3,7 @@
 (when (< emacs-major-version 24)
   (require-package 'color-theme))
 
-(load-theme 'solarized-dark t)
+(load-theme 'tango-dark t)
 
 (defun theme-blue ()
   (interactive)
