@@ -1,6 +1,4 @@
-;; *****************************
-;; *** AUCTEX-specific stuff ***
-;; *****************************
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/auctex-11.86"))
 
 (load "auctex.el" nil t t)
 
@@ -10,8 +8,7 @@
 (setq TeX-PDF-mode t)
 (defun pdfevince ()
   (add-to-list 'TeX-output-view-style
-	       (quote ("^pdf$" "." "evince %o (outpage)")))
-  )
+	       (quote ("^pdf$" "." "evince %o (outpage)"))))
 
 (add-hook 'lateX-mode-hook 'pdfevince t) ; AUCTeX LaTeX mode
 
