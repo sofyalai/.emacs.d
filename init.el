@@ -2,6 +2,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp"))
 
 (require 'iso-transl)
+(require 'init-autopair)
 (require 'init-auctex)
 (require 'init-auto-complete)
 (require 'init-csharp)
