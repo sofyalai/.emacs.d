@@ -1,9 +1,9 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/elisp/themes/")
 
 (when (< emacs-major-version 24)
-  (require-package 'color-theme))
+  (require 'color-theme))
 
-(load-theme 'tango-dark t)
+(load-theme 'solarized-dark t)
 
 (defun theme-blue ()
   (interactive)
