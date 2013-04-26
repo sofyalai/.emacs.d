@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: xor acc, acc, acc
+# key: xor
+# --
+xor ${1:acc}, $1, $1
+$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: brkr #label ,.{condition}
+# key: brkr
+# --
+brkr #${label},.${acc}:${condition}
+$0

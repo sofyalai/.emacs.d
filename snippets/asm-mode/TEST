@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: TEST(reference, actual)
+# key: TEST()
+# --
+TEST(${reference}, ${actual})
+$0

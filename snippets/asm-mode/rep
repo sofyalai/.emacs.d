@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: rep count ...
+# key: rep
+# --
+rep ${count}
+    $0
