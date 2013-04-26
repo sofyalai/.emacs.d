@@ -1,32 +1,8 @@
-;; multiple cursors
-(global-set-key (kbd "M-l") 'mc/mark-next-like-this)
-(global-set-key (kbd "M-L") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-M-z") 'mc/edit-lines)
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "M-n") 'mc/insert-numbers)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
-
-(define-key evil-normal-state-map "gb" 'ido-switch-buffer)
-
-;; org-mode
-(global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-cc" 'org-capture)
-(global-set-key "\C-ca" 'org-agenda)
-(global-set-key "\C-cb" 'org-iswitchb)
-
-(global-set-key "\C-c L" 'org-insert-link-global)
-(global-set-key "\C-c o" 'org-open-at-point-global)
-(global-set-key (kbd "C-c j") 'org-remember)
-
 ;; Wind Move
 (global-set-key (kbd "C-c <left>")  'windmove-left)
 (global-set-key (kbd "C-c <right>") 'windmove-right)
 (global-set-key (kbd "C-c <up>")    'windmove-up)
 (global-set-key (kbd "C-c <down>")  'windmove-down)
-
-;; Clone line
-(global-set-key "\C-c\C-d" "\C-a\C- \C-n\M-w\C-y\C-p")
 
 ;; ace-jump
 (define-key evil-normal-state-map "  " 'ace-jump-mode)
@@ -59,14 +35,5 @@
 (global-set-key (kbd "<mouse-4>") 'sd-mousewheel-scroll-down)
 
 (global-set-key [pause] 'toggle-current-window-dedication)
-
-;; esc quits
-(define-key evil-normal-state-map [escape] 'keyboard-quit)
-(define-key evil-visual-state-map [escape] 'keyboard-quit)
-(define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-must-match-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
 
 (provide 'key-bindings)

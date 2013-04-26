@@ -2,4 +2,6 @@
 
 (require 'evil)
 
+(define-key evil-normal-state-map "gb" 'ido-switch-buffer)
+
 (provide 'init-evil)
