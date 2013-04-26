@@ -12,6 +12,7 @@
 (require 'init-themes)
 (require 'init-vala)
 (require 'init-evil)
+(require 'init-yasnippet)
 
 (require 'emacs-settings)
 (require 'key-bindings)
