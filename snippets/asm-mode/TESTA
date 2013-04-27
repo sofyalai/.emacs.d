@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: TESTA(acc nr, guard, high, low)
-# key: TEST()
-# --
-TESTA(${acc nr}, ${guard}, ${high}, ${low})
-$0

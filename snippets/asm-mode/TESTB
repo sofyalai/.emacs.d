@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: TESTB(acc nr, guard, high, low)
-# key: TEST()
-# --
-TESTB(${acc nr}, ${guard}, ${high}, ${low})
-$0

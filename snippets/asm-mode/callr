@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: callr #label
-# key: callr
-# --
-callr #${label}
-$0

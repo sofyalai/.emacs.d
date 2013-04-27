@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: bkrep #label ...
-# key: bkrep
-# --
-bkrep #${1:label}
-    $0
-$1:
