@@ -1,6 +1,7 @@
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/auctex-11.86"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/auctex-11.87"))
 
 (load "auctex.el" nil t t)
+(load "preview-latex.el" nil t t)
 
 (setq font-latex-do-multi-line t)
 (setq font-latex-fontify-script nil)
