@@ -2,7 +2,6 @@
 
 (blink-cursor-mode 0) 
 (column-number-mode t)
-(evil-mode 1)
 (global-font-lock-mode t)
 (ido-mode t)
 (menu-bar-mode 0)
