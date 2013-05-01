@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: beamer ...
+# key: beamer
+# --
+\documentclass{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{yfonts}
+\usepackage{mathrsfs}
+
+\title{\textbf{${1:DOCUMENT TITLE}}}
+
+\begin{document}
+
+% Title page
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{${2:FRAME TITLE}}
+$0
+\end{frame}
+
+\end{document}
