@@ -8,6 +8,7 @@
 (scroll-bar-mode 0)
 (show-paren-mode t)
 (tool-bar-mode 0)		  
+(winner-mode 1)				; restore previous window view
 
 (set-cursor-color "white")
 
