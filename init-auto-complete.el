@@ -2,6 +2,7 @@
 
 (require 'auto-complete-config)
 
+(define-key ac-mode-map (kbd "§") 'auto-complete)
 (ac-config-default)
 
 (provide 'init-auto-complete)
