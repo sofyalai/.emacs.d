@@ -14,6 +14,7 @@
 (require 'init-evil)
 ;(require 'init-yasnippet)
 (require 'init-smex)
+(require 'init-ido-vertical-mode)
 
 (require 'emacs-settings)
 (require 'key-bindings)
