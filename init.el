@@ -3,7 +3,7 @@
 
 (require 'iso-transl)
 (require 'init-autopair)
-(require 'init-auctex)
+;(require 'init-auctex)
 (require 'init-auto-complete)
 (require 'init-csharp)
 (require 'init-misc)
@@ -12,7 +12,8 @@
 (require 'init-themes)
 (require 'init-vala)
 (require 'init-evil)
-(require 'init-yasnippet)
+;(require 'init-yasnippet)
+(require 'init-smex)
 
 (require 'emacs-settings)
 (require 'key-bindings)
