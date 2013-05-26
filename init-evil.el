@@ -4,6 +4,7 @@
 (evil-mode 1)
 
 (define-key evil-normal-state-map "gb" 'ido-switch-buffer)
+(define-key evil-normal-state-map " e" 'ido-find-file)
 
 ;; esc quits
 (define-key evil-normal-state-map [escape] 'keyboard-quit)
