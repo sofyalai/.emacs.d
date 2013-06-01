@@ -5,6 +5,7 @@
 
 (define-key evil-normal-state-map "gb" 'ido-switch-buffer)
 (define-key evil-normal-state-map " e" 'ido-find-file)
+(define-key evil-normal-state-map "å" 'evil-search-forward)
 
 ;; esc quits
 (define-key evil-normal-state-map [escape] 'keyboard-quit)
