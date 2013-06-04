@@ -1,9 +1,3 @@
 * .emacs.d
 
 This is the Emacs configurations I use.
-
-** Usage
-
-put this into your .emacs file:
-
-: (load-file "~/.emacs.d/init.el")
