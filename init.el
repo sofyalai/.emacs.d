@@ -15,6 +15,7 @@
 ;(require 'init-yasnippet)
 (require 'init-smex)
 (require 'init-ido-vertical-mode)
+(require 'init-ace-jump)
 
 (require 'emacs-settings)
 (require 'key-bindings)
